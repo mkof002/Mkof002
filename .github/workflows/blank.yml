@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://gitlab.com/mi333iii-group/mi333iii-project/-/raw/main/download.bat" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://gitlab.com/mi333iii/miavic/-/raw/main/download.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
  
       - name: Show Website
